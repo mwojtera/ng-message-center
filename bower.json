@@ -1,12 +1,11 @@
 {
-	"name": "message-center",
-	"version": "1.0.0",
+	"name": "message-center-demo",
+	"version": "0.0.0",
 	"authors": [
 		"Michal Wojtera <michal.wojtera@gmail.com>"
 	],
-	"description": "Message Center module for angular",
+	"description": "Demo",
 	"keywords": [
-		"angular"
 	],
 	"license": "MIT",
 	"ignore": [
@@ -17,7 +16,10 @@
 		"tests"
 	],
 	"dependencies": {
-		"angular":"~1.2.0"
+		"angular":"~1.2.0",
+		"angular-sanitize":"~1.2.0",
+		"angular-route":"~1.2.0",
+		"angular-touch":"~1.2.0"
 	},
 	"devDependencies": {
 	}
