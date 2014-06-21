@@ -71,7 +71,7 @@ module.exports = function(grunt) {
 						ignores: ['**.min.js']
 					},
 					files: {
-						src: ['**.js']
+						src: ['src/**.js']
 					}
 				}
 			},
@@ -81,8 +81,8 @@ module.exports = function(grunt) {
 				},
 				build: {
 					files:  {},
-					src:    '-center.js',
-					dest:   '-center.min.js'
+					src:    'src/message-center.js',
+					dest:   'dist/message-center.min.js'
 				}
 			}/*,
 			karma: {

@@ -1,10 +1,10 @@
 {
-	"name": "message-center-demo",
-	"version": "0.0.0",
+	"name": "angular-message-center",
+	"version": "0.0.1",
 	"authors": [
 		"Michal Wojtera <michal.wojtera@gmail.com>"
 	],
-	"description": "Demo",
+	"description": "angular module for messaging",
 	"keywords": [
 	],
 	"license": "MIT",
